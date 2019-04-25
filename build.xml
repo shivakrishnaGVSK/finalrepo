@@ -1,6 +1,9 @@
 <?xml version = "1.0"?>
-<project name = "Hello World Project" default = "info">
-   <target name = "info">
-      <echo>Hello World - Welcome to Apache Ant!</echo>
+<project name = "sample" basedir = "." default = "notify">
+   <target name = "notify">
+
+      <java fork = "true" failonerror = "yes" classname = "Program">
+
+      </java>
    </target>
 </project>
